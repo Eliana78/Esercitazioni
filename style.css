@@ -55,7 +55,10 @@ main {
     line-height: 2.5;
     font-size: 20px;
     padding: 10px;
-}    
+} 
+.welcomep h1{
+    font-size: 25px;
+}   
 
 .bookButton {
     border: 2px solid black;
