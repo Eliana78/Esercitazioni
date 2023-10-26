@@ -43,6 +43,7 @@
 
 #videopromo_container {
     display: flex;
+    width: 100%;
     align-items: center;
     background-color: rgb(237, 232, 170);
 }
@@ -73,4 +74,33 @@ main {
 .bookButton:hover {
     transform: scale(1.3, 1.3);
     background-color:  rgb(162, 150, 71);
+}
+
+#FitzWillOffers {
+    text-align: center;
+    background-color: black;
+    height: 150px;
+    color:  rgb(162, 150, 71);
+    font-size: 80px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 2px 2px white;
+    padding-top: 30px;
+}
+
+#imgbedroom{
+    float: left;
+    margin-right: 40px;
+}
+
+.bedroomdiv {
+    clear: both;
+    height: 600px;
+}
+
+.sectitle {
+      text-align: center;
+      font-size: 80px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      color:rgb(162, 150, 71);
+      font-style: italic;
 }
