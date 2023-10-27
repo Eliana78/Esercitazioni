@@ -18,7 +18,7 @@
     width: 70%;
 }
 
-#logo {
+.logo {
     margin: 5px 25px;
     padding: 3px;
     border: 2px solid rgb(162, 150, 71);
@@ -87,14 +87,11 @@ main {
     padding-top: 30px;
 }
 
-#imgbedroom{
-    float: left;
-    margin-right: 40px;
-}
-
-.bedroomdiv {
-    clear: both;
+.bedroomdiv{
     height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .sectitle {
@@ -103,4 +100,52 @@ main {
       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
       color:rgb(162, 150, 71);
       font-style: italic;
+      text-shadow: 2px 2px black;
+}
+
+.parag{
+    text-align: left;
+    width: 400px;
+    line-height: 1.5;
+}
+
+.imgbedroom {
+    border-radius: 50px;
+}
+
+.imgdiv{
+    width: 50%;
+}
+
+.footerfoot{
+    height: 180px;
+    background-color: black;
+    color: rgb(162, 150, 71);
+    display: flex;
+    width: 100%;
+    align-items: baseline;
+    justify-content: space-around;
+}
+
+.footerH{
+    margin-top: 20px;
+    font-weight: 900;
+}
+
+.footlist{
+    list-style-type: none;
+    line-height: 1.5;
+    cursor: pointer;
+}
+
+.footlist a{
+    text-decoration: none;
+    color: rgb(162, 150, 71); 
+}
+.footlist.social{
+    text-align: center;
+}
+.footerformlabel{
+    display: block;
+    margin-bottom: 5px;
 }

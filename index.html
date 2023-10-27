@@ -1,99 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="YOUR FAVOURITE FIVE-STAR FITZWILl HOTEL DUBLIN,A boutique luxury escape in the very heart of everything, it’s the most recommended, best reviewed, most loved, multi award-winning five-star hotel with the best location in Dublin.">
-    <meta name="copyright" name="Hotel &copy;2023">
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/png" href="images_hotel/FitzWill.png">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="YOUR FAVOURITE FIVE-STAR FITZWILl HOTEL DUBLIN,A boutique luxury escape in the very heart of everything, it’s the most recommended, best reviewed, most loved, multi award-winning five-star hotel with the best location in Dublin."
+    />
+    <meta name="copyright" name="Hotel &copy;2023" />
+    <link rel="stylesheet" href="styleeserc.css" />
+    <link rel="icon" type="image/png" href="images_hotel/FitzWill.png" />
     <title>FitzWill Hotel</title>
-</head>
-<body>
+  </head>
+  <body>
     <header class="headerclass">
-            <img id="logo" src="images_hotel/FitzWill.png" alt="logo gotel" height="40px">
-            <nav class="navbar">
-            <ul class="navbarlist"> 
-                <li>Offers</li>
-                <li>Sleep</li>
-                <li>Eat</li>
-                <li>SPA</li>
-                <li>Gallery</li>
-                <li>Contacts</li>
-            </ul>
-        </nav>
+      <img
+        class="logo"
+        src="images_hotel/FitzWill.png"
+        alt="logo gotel"
+        height="40px"
+      />
+      <nav class="navbar">
+        <ul class="navbarlist">
+          <li>Offers</li>
+          <li>Sleep</li>
+          <li>Eat</li>
+          <li>SPA</li>
+          <li>Gallery</li>
+          <li>Contacts</li>
+        </ul>
+      </nav>
     </header>
     <main>
-        <div id="videopromo_container">
-            <!--video, h1 and first p container-->
-            <video id="videopromo" controls muted loop autoplay>
-                <source src="video_promo.mp4" type="video/mp4">
-                video not supported
-            </video>
-       <div class="welcomep">  <!--h1 and first p container-->
+
+      <div id="videopromo_container">
+        <!--video, h1 and first p container-->
+        <video id="videopromo" controls muted loop autoplay>
+          <source src="video_promo.mp4" type="video/mp4" />
+          video not supported
+        </video>
+        <div class="welcomep">
+          <!--h1 and first p container-->
           <h1>WELCOME TO THE 5 STAR FITZWILL Dublin</h1>
-           <p >
-            Awarded Five Stars, The Fitzwill Hotel is a super-elegant masterpiece located in the heart of the city centre. <br>
+          <p>
+            Awarded Five Stars, The Fitzwill Hotel is a super-elegant
+            masterpiece located in the heart of the city centre. <br />
 
-            146 fabulous guestrooms and suites, incredible food, a much-loved bar and the best service you’ve ever experienced: A new definition of boutique hotel, it’s Dublin’s five-star superstar.
-            <br>
+            146 fabulous guestrooms and suites, incredible food, a much-loved
+            bar and the best service you’ve ever experienced: A new definition
+            of boutique hotel, it’s Dublin’s five-star superstar.
+            <br />
             <button class="bookButton">BOOK YOUR STAY</button>
-           </p>
-        </div> <!--close the welcomep-->
-        </div> <!--all-->
-
-        <h2 id="FitzWillOffers">FitzWill Offers</h2>
-        <div class="bedroomdiv">
-            <img id="imgbedroom"src="images_hotel/homepagebedroom.jpg" alt="bedroom photo" height="400px">
-            <h2 class="sectitle">ROOMS</h2>
-            <p>Your favourite five-star hotel in Dublin.
-
-                Our 146 rooms and suites have everything you need: complimentary high-speed Wi-Fi, a big TV with a million channels, digital radios with Bluetooth connectivity to your phone, turn-down service, all wrapped up in a tasteful contemporary designer package. Think of crisp Egyptian linens, elegant bathrooms, fluffy bathrobes, and designer toiletries. With the city’s most friendly and knowledgeable concierge team on hand, as well as it’s perfect central location, The Fitzwilliam Hotel is a hotel that oozes charm with the warmest welcome, always. </p>
-            <a href="" target="_blank">See our rooms</a>    
+          </p>
         </div>
-          
+        <!--close the welcomep-->
+      </div>
+      
 
-        <div class="bedroomdiv">
-        <h2>Contact Us</h2> 
-        <form>
-           <fieldset>
-            <legend>General info</legend>
-            <label for="name">Name</label>
-            <input id="name" name="name" type="text" placeholder="name" autofocus>
-            <label for="surname">Surname</label>
-            <input id="surname" name="surname" type="text" placeholder="surname">
-            <br>
-            <label for="dtbh">Date of birth</label>
-            <input style="margin-top: 5px;" id="dtbh" name="date of birth" placeholder="date of birth" required type="date">
-           </fieldset>
-            <br>
-            <fieldset>
-                <legend>Contacts</legend>  
-            <label for="email">Email</label>
-            <input id="email" name="email" type="email" placeholder="email" required>
-            <label for="tel">Phone</label>
-            <input id="tel" name="tel" type="tel" placeholder="tel" maxlength="10">
-        </fieldset>
-        <br>
-        <label for="Comment">Comment</label>
-        <textarea id="Comment" rows="5" cols="25"></textarea>
-        <br>
-        <input type="submit" value="submit">
-        <input type="reset" value="reset">
-        </form>
+      <h2 id="FitzWillOffers">FitzWill Offers</h2>
+
+      <!--div bedroom-->
+      <div class="bedroomdiv">
+        <img
+          class="imgbedroom"
+          src="images_hotel/homepagebedroom.jpg"
+          alt="bedroom photo"
+          height="400px"
+        />
+        <div>
+          <h2 class="sectitle">ROOMS</h2>
+          <p class="parag">
+            Your favourite five-star hotel in Dublin. Our 146 rooms and suites
+            have everything you need: complimentary high-speed Wi-Fi, a big TV
+            with a million channels, digital radios with Bluetooth connectivity
+            to your phone, turn-down service, all wrapped up in a tasteful
+            contemporary designer package. Think of crisp Egyptian linens,
+            elegant bathrooms, fluffy bathrobes, and designer toiletries.
+            With the city’s most friendly and
+            knowledgeable concierge team on hand, as well as it’s perfect
+            central location, The Fitzwilliam Hotel is a hotel that oozes charm
+            with the warmest welcome, always.
+          </p>
+          <br />
+          <a class="parag" href="" target="_blank">See our rooms</a>
+        </div>
+      </div>
+
+      <!--div restaurant-->
+      <div class="bedroomdiv">
+        <div>
+          <h2 class="sectitle">DINING</h2>
+          <p class="parag">
+            Have a look at our sample menus and let your anticipation begin to
+            build. We offer a choice of menus for pre-theatre dining, group
+            dining, a la carte and of course we have an extensive wine and
+            cocktail menu.
+          </p>
+          <br />
+          <a class="parag" href="" target="_blank">See dining</a>
+        </div>
+        <div class="imgdiv">
+          <img
+            class="imgbedroom"
+            src="images_hotel/homepagedish2.jpg"
+            alt="restaurant photo"
+            height="400px"
+          />
+        </div>
+      </div>
+
+      <!--div SPA-->
+      <div class="bedroomdiv">
+        <div class="imgdiv">
+          <img
+            class="imgbedroom"
+            src="images_hotel/homepagespa.jpg"
+            alt="spa photo"
+            height="400px"
+          />
+        </div>
+
+        <div>
+          <h2 class="sectitle">SPA</h2>
+          <p class="parag">
+            Indulge in Tranquility Step into our serene spa oasis, where
+            relaxation knows no bounds. Let the gentle whispers of calming music
+            and the soothing scent of essential oils embrace you. Our skilled
+            therapists await to pamper you with rejuvenating treatments, leaving
+            you refreshed and revitalized.
+          </p>
+          <br />
+          <a class="parag" href="" target="_blank">See our treatments</a>
+        </div>
+      </div>
     </main>
-    <hr>
 
-
-    
-    <footer>
-        <ul>
-            <li><a href="mailto=hotlebellissimoçgmail.com">Email Us</a></li>
-            <li><a href="tel:0897777">Call Us</a></li>
-            <li>Facebook</li>
-            <li>Instagram</li>
-        </ul>
+    <footer class="footerfoot">
+        <!--div hotel-->
+        <div>
+            <h3 class="footerH">The Hotel</h3>
+               <img class="logo" src="images_hotel/FitzWill.png" alt="logo" height="40px"/>
+            <ul>© The Fitzwill Hotel Dublin, St. Stephen's Green, Dublin, D02 HE18.
+                <li class="footlist"><a href="tel:0987654">Tel:0987654</a></li>
+                <li class="footlist"><a href="mailto:fitzwill@gmail.com">Email:fitzwill@gmail.com</a></li>
+            </ul>
+        </div>
+        <!--div s media-->
+        <div>
+            <h3 class="footerH">Connect with Us</h3>
+            <li class="footlist social" >Facebook</li>
+            <li class="footlist social">Instagram</li>
+            <li class="footlist social">Linkedin</li>
+        </div>
+        <!--div newsletter-->
+        <div>
+            <h3 class="footerH">Newsletter Sign UP</h3>           
+                <form>
+                    <label class="footerformlabel" for="name">Name</label>
+                    <input class="footerformlabel" id="name" type="text" name="name" placeholder="full name" required>
+                    <label class="footerformlabel" for="email">Email</label>
+                    <input class="footerformlabel" id="email" type="email" name="email" placeholder="email" required>
+                    <button class="footerformlabel" type="submit">SUBSCRIBE</button>
+                </form>
+        </div>
     </footer>
-    
-</body>
+  </body>
 </html>
